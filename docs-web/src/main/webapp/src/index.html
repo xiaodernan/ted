@@ -144,6 +144,14 @@
           <li ui-sref-active="{ active: 'user.**', active2: 'group.**' }">
             <a href="#/user"><span class="fas fa-user"></span> {{ 'index.nav_users_groups' | translate }}</a>
           </li>
+          <li ui-sref-active="{ active: 'user.**', active2: 'group.**' }">
+           <a href="http://localhost:8081"><span class="fas fa-user"></span> 申请注册</a>
+          </li>
+          <li ui-sref-active="{ active: 'chat.**' }">
+          <a href="http://localhost:8081/chat"><span class="fas fa-comments"></span> 群组聊天</a>
+          </li>
+
+
         </ul>
 
         <ul class="nav navbar-nav navbar-right" ng-show="!userInfo.anonymous">
